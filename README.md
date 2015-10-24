@@ -1,2 +1,2 @@
 # proyecto2
-Juego para el proyecto 2
+Juego para el proyecto 2.
