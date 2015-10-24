@@ -11,4 +11,3 @@ if(keyboard_check(vk_left)&&keyboard_check(vk_down)||keyboard_check(vk_left)&&ke
 hspeed=0; vspeed=0;}
 if(keyboard_check(vk_right)&&keyboard_check(vk_down)||keyboard_check(vk_right)&&keyboard_check(vk_up)){
 hspeed=0; vspeed=0;}
-//y ya esta
