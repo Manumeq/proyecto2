@@ -1,0 +1,13 @@
+//si presionamos la flecha izquierda
+if(keyboard_check(vk_left)) {hspeed=-4; vspeed=0;}
+//si presionamos la flecha derecha
+if(keyboard_check(vk_right)) {hspeed=4; vspeed=0;}
+//si presionamos la flecha arriba
+if(keyboard_check(vk_up)) {vspeed=-4; hspeed=0}
+//si presionamos la flecha abajo
+if(keyboard_check(vk_down)) {vspeed=4; hspeed=0}
+//condiciones para que no se mueva diagonalmente
+if(keyboard_check(vk_left)&&keyboard_check(vk_down)||keyboard_check(vk_left)&&keyboard_check(vk_up)){
+hspeed=0; vspeed=0;}
+if(keyboard_check(vk_right)&&keyboard_check(vk_down)||keyboard_check(vk_right)&&keyboard_check(vk_up)){
+hspeed=0; vspeed=0;}
